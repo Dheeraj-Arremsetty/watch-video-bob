@@ -1,0 +1,42 @@
+# Environment variables with API keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Video processing working directories
+/tmp/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+
+# Skill build artifacts
+dist/watch.skill
+
+# Made with Bob
