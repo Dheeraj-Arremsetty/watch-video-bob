@@ -22,21 +22,18 @@ This skill enables IBM Bob to:
 # Clone the repository
 git clone https://github.com/Dheeraj-Arremsetty/watch-video-bob.git
 
-# Copy to Bob's skills directory
-cp -r watch-video-bob/.bob/skills/watch-video ~/.bob/skills/watch-video
+# Open the folder in Bob
+# Bob will automatically detect the .bob/skills directory
 ```
 
-Or one-liner:
-```bash
-git clone https://github.com/Dheeraj-Arremsetty/watch-video-bob.git && cp -r watch-video-bob/.bob/skills/watch-video ~/.bob/skills/watch-video
-```
+**That's it!** Bob automatically discovers skills in any `.bob/skills/` directory within your workspace.
 
 ### 2. Configure API Keys (Optional)
 
-For videos without native captions, you can add a Whisper API key:
+For videos without native captions, add a Whisper API key:
 
 ```bash
-# Copy the template and add your key
+cd watch-video-bob
 cp .env.example .env
 # Edit .env and uncomment your preferred API key (Groq or OpenAI)
 ```
