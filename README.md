@@ -14,6 +14,12 @@ This skill enables IBM Bob to:
 - 🎤 Get transcripts from native captions or Whisper API
 - 💬 Answer questions about video content based on both visual and audio information
 
+## Architecture
+
+![Watch Video Flow](images/watch-video-flow.png)
+
+The skill follows a simple pipeline: User provides a video → Bob activates the skill → Video is processed (download, frame extraction, transcript) → Bob's multimodal AI analyzes the content → User receives answers with timestamp citations.
+
 ## Quick Start
 
 ### 1. Installation
