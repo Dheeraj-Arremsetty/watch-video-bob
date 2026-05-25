@@ -20,6 +20,12 @@ This skill enables IBM Bob to:
 
 The skill follows a simple pipeline: User provides a video → Bob activates the skill → Video is processed (download, frame extraction, transcript) → Bob's multimodal AI analyzes the content → User receives answers with timestamp citations.
 
+## Example Result
+
+![Example Video Analysis](images/test.png)
+
+Bob analyzing a YouTube video comparing IBM Bob vs Claude Code, providing a detailed summary with key points on pricing, code modernization, LLM approaches, and security & governance.
+
 ## Quick Start
 
 ### 1. Installation
